@@ -32,7 +32,8 @@ public class Control2_ex2 {
 		
 		System.out.println(ch);
 		
-		// studty edition
+		// study edition
+		// 집에서 추가한 것.
 		sc.close();
 	}
 
