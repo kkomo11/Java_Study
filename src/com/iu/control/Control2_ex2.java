@@ -29,6 +29,14 @@ public class Control2_ex2 {
 				ch -= 26;
 			}
 		}
+
+		/*
+		 * if(ch>122) { ch -= 26; }
+		 * 
+		 * if(ch>90 && ch<97) { ch -= 26; }
+		 * 중첩 if 안쓰기
+		 *
+		 */
 		
 		System.out.println(ch);
 		
