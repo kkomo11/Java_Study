@@ -32,6 +32,7 @@ public class Control2_ex2 {
 		
 		System.out.println(ch);
 		
+		// studty edition
 		sc.close();
 	}
 
