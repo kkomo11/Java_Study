@@ -38,7 +38,7 @@ public class Loop1_ex2 {
 		
 		System.out.println("=====================================");
 		
-		int vId = 1234; int vPw = 5678;
+		int yId = 1234; int yPw = 5678;
 		int inputId=0; int inputPw=0;
 		int i=0;
 		
@@ -49,7 +49,7 @@ public class Loop1_ex2 {
 			System.out.println("비밀번호를 입력하세요");
 			inputPw = sc.nextInt();
 			
-			if(vId == inputId && vPw == inputPw) {
+			if(yId == inputId && yPw == inputPw) {
 				System.out.println("로그인에 성공하였습니다.");
 				i = 100;
 			} else {

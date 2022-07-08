@@ -28,7 +28,7 @@ public class Loop4_ex2 {
 			}
 			
 			for(int j=0; j<30; j+=bullet) {
-			/*	if(num < bullet) {
+			/*	if(num < bullet) { // bullet 선택 할 수있는 코드
 					bullet = num;
 				} 
 				for(int h=0; h<bullet; h++) {
