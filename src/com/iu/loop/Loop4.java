@@ -19,12 +19,23 @@ public class Loop4 {
 			System.out.println();
 		}
 		
-		System.out.println("=================================");
+		System.out.println("역삼===============================");
 		
 		for(int i=0; i<5; i++) {
 			for(int j=i; j<5; j++) {
 				System.out.print("*");
 			}
+			System.out.println();
+		}
+		
+		System.out.println("정삼===============================");
+		
+		int k=1;
+		for(int i=0; i<5; i++) {
+			for(int j=0; j<k; j++) {
+				System.out.print("*");
+			}
+			k++;
 			System.out.println();
 		}
 	}
