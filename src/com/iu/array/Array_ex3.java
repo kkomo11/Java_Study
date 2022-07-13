@@ -74,7 +74,7 @@ public class Array_ex3 {
 					for(int i=0; i<stdName.length; i++) {
 						System.out.println(stdName[i]+"\t\t"+stdNum[i]+"\t\t"+kor[i]+"\t\t"
 								+ eng[i] + "\t\t" + math[i] + "\t\t" + total[i] + "\t\t"
-								+ avg[i] + "\t\t");
+								+ avg[i]);
 					}
 				} else {
 					System.out.println("학생 정보를 먼저 입력해주세요");
@@ -90,7 +90,7 @@ public class Array_ex3 {
 							System.out.println("이름\t\t번호\t\t국어\t\t영어\t\t수학\t\t총점\t\t평균\t\t");
 							System.out.println(stdName[i]+"\t\t"+stdNum[i]+"\t\t"+kor[i]+"\t\t"
 									+ eng[i] + "\t\t" + math[i] + "\t\t" + total[i] + "\t\t"
-									+ avg[i] + "\t\t");
+									+ avg[i]);
 							check2=false;
 						}
 					}
